@@ -23,7 +23,7 @@ Put simply: a program becomes an application when it’s used not only by engine
 
 To see how the way people interact with computers has changed, I’ll break the story into stages. Quick disclaimer: I’m not a historian of software or hardware, so the split is **simplified**. The years in this chapter are a guideline, not a strict mapping to specific events.<br><br>
 
-<p align="center"><img src="assets/st2.png" width="100%" alt="Stage 1" /> </p>
+<p align="center"><img src="assets/st1.png" width="100%" alt="Stage 1" /> </p>
 In 1946, **ENIAC**—one of the first programmable computers—was demonstrated. It’s a convenient starting point for an era where the main “control organ” was the program itself (more precisely, sets of instructions for a computer).
 
 Before that, calculating machines could only perform pre‑wired operations. ENIAC at first was even reprogrammed **manually**—by physically rewiring cables and reconfiguring circuits.
