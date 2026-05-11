@@ -2,7 +2,7 @@
 <p align="center"> <a href="https://t.me/rawr_time"> <img src="assets/RUS.png" height="25" alt="На русском" /></a> </p><br>
 
 
-<p align="center"><img src="assets/introduction.png" width="1000" alt="Introduction" /> </p>
+<p align="center"><img src="assets/introduction.png" width="100%" alt="Introduction" /> </p>
 
 Modern desktop environments in “adult” operating systems (Windows, Linux, macOS) are complex applications that often trace their roots back to systems designed at the dawn of OS development. Explorer, GNOME, KDE, and macOS all originate from an era when the computer user experience was radically different from what it is today.  
 
