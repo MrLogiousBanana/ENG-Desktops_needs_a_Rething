@@ -24,7 +24,7 @@ Put simply: a program becomes an application when it’s used not only by engine
 To see how the way people interact with computers has changed, I’ll break the story into stages. Quick disclaimer: I’m not a historian of software or hardware, so the split is **simplified**. The years in this chapter are a guideline, not a strict mapping to specific events.<br><br>
 
 <span style="line-height: 32px; display: inline-block;">
-  <h3>「1946 - 1965」<img src="assets/terminal.png" alt="терминал" height="18" style="display: inline-block; vertical-align: middle;"> Stage 1 — “the reign of programs”</h3>
+  <h3>「1946 - 1965」<img src="assets/terminal.png" alt="терминал" height="18" style="display: inline-block; vertical-align: bottom;"> Stage 1 — “the reign of programs”</h3>
 </span>
 
 
