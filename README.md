@@ -1,5 +1,12 @@
 <h1 align="center">
 🖥️ Desktop in the Age of Background Apps: <br>Why DE Needs a Rethink<br><br>
+    <p align="center">
+  <a href="https://t.me/rawr_time"> <img src="assets/TG.png" height="25" alt="Telegram" /></a>
+  <a href="https://youtube.com/@MrLogiousBanana"> <img src="assets/YT.png" height="25" alt="Youtube" /></a>
+  <a href="https://vk.com/MrLogiousBanana"> <img src="assets/vk.png" height="25" alt="VKontakte" /></a>
+  <a href="https://twitch.tv/MrlogiousBanana_"> <img src="assets/TW.png" height="25" alt="Twitch" /></a>
+  <a href="https://boosty.to/MrLogiousBanana"> <img src="assets/BO.png" height="25" alt="Boosty" /></a>
+</p>
 </h1><br>
 
 ## 🔻Introduction
