@@ -386,6 +386,9 @@ The OS should provide several access tiers:
 
 The OS also needs a proper **Do Not Disturb** mode and **notification sounds**: apps should not play their own sound—an app sends an event, and the OS plays the sound chosen by the user (the app may provide a default).<br><br>
 
+<p align="center"><img src="assets/noty reimagined.png" width="30%" alt="Reimagined Notifications"/></p>
+<br>
+
 <img src="assets/recap.png" height="25" alt="Recap"/>
 
 We now have the “skeleton” of a solution: app classes become not an abstraction, but the basis for rights and constraints (tray, notifications, autostart, background) via unified system APIs. This returns control to users and predictability to developers: fewer hacks, more proper system scenarios. Next, we can talk about the “layers on top”: what new UX mechanisms become possible once the platform has this kind of framework.<br><br><br><br>
@@ -420,10 +423,9 @@ Mobile OSes have long developed widgets, Dynamic Island, and “live” notifica
 
 If auxiliary apps often go to the background (Discord, Telegram), tray widgets help you understand what’s happening without switching back to the window: who’s speaking in a voice channel, what track is playing, how many percent have downloaded.
 
-**Notification badges** on a tray icon should also be extended so they can show not only “unread count,” but small statuses/icons (from a set or custom) to indicate modes: “silent,” “VPN connected to X,” and so on.<br>
+**Notification badges** on a tray icon should also be extended so they can show not only “unread count,” but small statuses/icons (from a set or custom) to indicate modes: “silent,” “VPN connected to X,” and so on.<br><br>
 
-<p align="center"><img src="assets/tray reimagined 2.png" width="50%" alt="Reimagined Tray"/></p>
-
+<p align="center"><img src="assets/tray reimagined 2.png" width="30%" alt="Reimagined Tray"/></p>
 <br>
 
 ### System modes
