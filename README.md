@@ -41,7 +41,7 @@ Finally, high‑level languages. **Fortran** and **BASIC** made programming much
 - **1957 ▸** the first popular high‑level language — **Fortran**;
 - **1964 ▸** the mass‑adopted language — **BASIC**.
 
-**Summary:** the “reign of programs” era is characterized by an almost complete lack of UI, running “one program at a time,” and the beginning of programs being shared between people.<br>
+**Summary:** the “reign of programs” era is characterized by an almost complete lack of UI, running “one program at a time,” and the beginning of programs being shared between people.<br><br>
 
 ### Stage 2 — the transition to applications「1960 - 1985」
 
@@ -69,7 +69,7 @@ Early mass applications appear: text editors (Apple Writer), spreadsheets (VisiC
 - **1973 ▸** **XEROX Alto** — an early mature GUI and principles of future OSes;
 - **1977 ▸** **Apple II** — a mass‑market PC.
 
-**Summary:** the move from “bare programs” to applications was enabled by OS development and abstraction away from hardware. UI and mass computers turned software into a product: users began to choose what’s “convenient,” and developers began to profit from applications.<br>
+**Summary:** the move from “bare programs” to applications was enabled by OS development and abstraction away from hardware. UI and mass computers turned software into a product: users began to choose what’s “convenient,” and developers began to profit from applications.<br><br>
 
 ### Stage 3 — the evolution of apps: desktop and early mobile「1980 - 2006」
 
@@ -96,7 +96,7 @@ Mobile phones begin to get built‑in games and organizers. And with **Java ME**
 - **1996 ▸** **Palm Pilot** — a mass‑market PDA;
 - **2000 ▸** **Java ME** — mobile apps on feature phones.
 
-**Summary:** applications split into two camps — desktop (complex and powerful) and mobile (simple, efficient, designed for small screens).<br>
+**Summary:** applications split into two camps — desktop (complex and powerful) and mobile (simple, efficient, designed for small screens).<br><br>
 
 ### Stage 4 — the mobile app explosion「2002 - 2014」
 
@@ -120,7 +120,7 @@ Desktop apps don’t disappear, but their role shifts toward professional tools 
 - **2010 ▸** **iPad** — tablets and their apps;
 - **2012 ▸** Android Market becomes **Google Play**.
 
-**Summary:** mobile apps become the primary way billions of people “use a computer.” App stores solve distribution and monetization. Desktop retains its role mostly in professional and “heavy” scenarios.<br>
+**Summary:** mobile apps become the primary way billions of people “use a computer.” App stores solve distribution and monetization. Desktop retains its role mostly in professional and “heavy” scenarios.<br><br>
 
 ### Stage 5 — one app across all devices「2012 - present」
 
@@ -148,9 +148,9 @@ OSes themselves move in this direction:
 - **2021 ▸** **Windows 11** — Android apps via the Amazon Appstore;
 - **2023 ▸** the mass rollout of **AI features** in applications.
 
-**Summary:** the difference between “desktop vs mobile” becomes increasingly conditional. Users think less about installation and more about access/subscription/sync. We moved from “programs on disks” to “apps as services.”
+**Summary:** the difference between “desktop vs mobile” becomes increasingly conditional. Users think less about installation and more about access/subscription/sync. We moved from “programs on disks” to “apps as services.”<br><br>
 
-### Chapter 1 recap
+### 🧾Chapter 1 recap
 
 We traveled from “programs as a set of commands” to applications as products and services—with UIs, habits, and an expectation of constant availability across devices. This shift made software mass‑market and convenient, but it also mixed different “cultures” of use (desktop and mobile) in one world. Next, it’s important to see how this collision shows up on the desktop today—and why familiar desktop‑environment mechanisms no longer cope.
 
@@ -209,7 +209,7 @@ Look at game launchers: Steam, Epic Games, GOG Galaxy. They start with the syste
 
 The flip side is that some heavy desktop apps (for example, Adobe Creative Cloud) behave like mobile: constantly updating, living in the tray, pushing marketing notifications. This isn’t about technology—it’s about philosophy and the lack of clear system boundaries.
 
-### Chapter 2 recap
+### 🧾Chapter 2 recap
 
 The conflict shows up as a set of symptoms: inconsistent rules for background life, fragmented UX solutions, and unclear boundaries of what counts as an “app” versus a “background agent.” As long as the system doesn’t distinguish behavior types, each product will improvise. So the next step is to give ourselves a language and a model: what classes of software exist, and what rights/expectations should each have?
 
@@ -287,7 +287,7 @@ Key criteria:
 
 Important principle: if the user **explicitly closes** a secondary application, it should not linger in the background as a “tail.”
 
-### Chapter 3 recap
+### 🧾Chapter 3 recap
 
 The classification turns the vague “apps behave weirdly” into concrete classes with different lifecycles: what must live only as a window, what may stay in the background, and what should be a service without UI at all. This sets the rules of the game and lets us discuss constraints without taste wars. Next comes the main question: how do we make these rules work not by “agreement,” but technically—at the OS level and through its APIs?
 
@@ -385,7 +385,7 @@ The OS should provide several access tiers:
 
 The OS also needs a proper **Do Not Disturb** mode and **notification sounds**: apps should not play their own sound—an app sends an event, and the OS plays the sound chosen by the user (the app may provide a default).
 
-### Chapter 4 recap
+### 🧾Chapter 4 recap
 
 We now have the “skeleton” of a solution: app classes become not an abstraction, but the basis for rights and constraints (tray, notifications, autostart, background) via unified system APIs. This returns control to users and predictability to developers: fewer hacks, more proper system scenarios. Next, we can talk about the “layers on top”: what new UX mechanisms become possible once the platform has this kind of framework.
 
@@ -441,7 +441,7 @@ Imagine a typical workday. You turn on “Work” mode and the OS reshapes app b
 
 The point isn’t that “features appeared.” The point is that the OS finally manages this centrally—and the user controls the background, not the other way around.
 
-### Chapter 5 recap
+### 🧾Chapter 5 recap
 
 When the system has a framework and control, “tasty” add‑ons become possible—not as app‑specific hacks, but as a unified platform: notification categories, tray widgets/info panels, and work modes. These ideas don’t replace the foundation—they unlock its potential. UX stops being a collection of compromises and becomes a manageable environment. Next we just need to lock in the overall conclusion and state what exactly matters to change in our approach to DE/OS.
 
