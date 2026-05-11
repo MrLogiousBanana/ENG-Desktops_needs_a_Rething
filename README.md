@@ -9,7 +9,7 @@ This essay looks at the problems of modern desktop environments from a usability
 
 In this text we’ll walk through the evolution from programs to applications, unpack the issues created by the rapid rise of mobile software, introduce a new classification of software by usage type, and use it to propose a solution to the problems described above. We’ll also explore how desktop environments could evolve on top of this foundation—so the slogan “a desktop environment for people, not people for the desktop environment” can become real.<br><br><br><br>
 
-## 🔸Chapter 1. How programs turned into applications
+<p align="center"><img src="assets/Chapter 1.png" width="100%" alt="На русском" /> </p>
 
 This chapter is about the history of applications. First, let’s align on terminology so we don’t get confused later.
 
