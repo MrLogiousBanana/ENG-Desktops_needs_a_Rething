@@ -1,4 +1,6 @@
-# Desktop in the Age of Background Apps: Why DE Needs a Rethink
+<h1 align="center">
+#  🖥️ Desktop in the Age of Background Apps: Why DE Needs a Rethink
+</h1>
 ## 🔻Introduction
 
 Modern desktop environments in “adult” operating systems (Windows, Linux, macOS) are complex applications that often trace their roots back to systems designed at the dawn of OS development. Explorer, GNOME, KDE, and macOS all originate from an era when the computer user experience was radically different from what it is today.  
