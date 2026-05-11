@@ -1,7 +1,7 @@
 <h1 align="center">
 🖥️ Desktop in the Age of Background Apps: <br>Why DE Needs a Rethink<br><br>
     <p align="center">
-  <a href="https://t.me/rawr_time"> <img src="assets/RUS.png" height="25" alt="Telegram" /></a>
+  <a href="https://t.me/rawr_time"> <img src="assets/RUS.png" height="25" alt="На русском" /></a>
 </p>
 </h1><br>
 
