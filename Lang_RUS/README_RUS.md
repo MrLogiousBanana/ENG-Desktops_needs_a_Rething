@@ -1,5 +1,5 @@
 <p align="center"><img src="assets/RUS header.png" width="100%" alt="На русском" /> </p>
-<p align="center"> <a href="https://github.com/MrLogiousBanana/Desktops_needs_a_Rething/blob/main/README_RUS.md"> <img src="assets/ENG.png" height="25" alt="На русском" /></a> </p>
+<p align="center"> <a href="https://github.com/MrLogiousBanana/Desktops_needs_a_Rething/blob/main/README.md"> <img src="assets/ENG.png" height="25" alt="An English" /></a> </p>
 
 <p align="center"><img src="assets/introduction.png" width="100%" alt="Introduction" /> </p>
 
@@ -11,470 +11,470 @@
 
 <p align="center"><img src="assets/Chapter 1.png" width="100%" alt="🔸 Chapter 1" /> </p>
 
-This chapter is about the history of applications. First, let’s align on terminology so we don’t get confused later.
+Эта глава — про историю приложений. Для начала договоримся о терминах, чтобы дальше не путаться.
 
-**Program** — in the broadest sense, an “instruction for the computer”: do X → output Y.  
+**Программа** — в самом общем смысле «инструкция для компьютера»: сделай X → выдай Y.  
 
-**Application** — the same program, but *packaged for humans*: it has a UI, you can install it, open it, close it, and in general it’s clear how to live with it.
+**Приложение** — та же программа, но *упакованная для человека*: есть интерфейс, её можно установить, открыть, закрыть, и в целом понятно, как с ней жить.
 
-Put simply: a program becomes an application when it’s used not only by engineers, but by regular people. An interface appears, along with common scenarios, habits, and interaction rules.
+Если совсем по‑простому: программа становится приложением в тот момент, когда ей начинают пользоваться не только инженеры, а обычные люди. Появляется интерфейс, сценарии, привычки и правила взаимодействия.
 
-“Programs” include drivers, the operating system kernel, OS components, and things launched by the user. “Applications” are the familiar tools: messengers, browsers, games, and so on.
+К «программам» можно отнести и драйверы, и ядро операционной системы (kernel), и компоненты ОС, и то, что запускает пользователь. А к приложениям — уже привычные нам вещи: мессенджеры, браузеры, игры и т.д.
 
-To see how the way people interact with computers has changed, I’ll break the story into stages. Quick disclaimer: I’m not a historian of software or hardware, so the split is **simplified**. The years in this chapter are a guideline, not a strict mapping to specific events.<br><br>
+Чтобы увидеть, как менялся сам способ взаимодействия человека с компьютером, я разобью историю на этапы. Сразу дисклеймер: я не историк ПО и железа, поэтому деление будет **упрощённым**. Годы в этогй главе — ориентир, а не строгая привязка к конкретным событиям.<br><br>
 
 <p align="center"><img src="assets/st1.png" width="100%" alt="Stage 1" /> </p>
-In 1946, **ENIAC**—one of the first programmable computers—was demonstrated. It’s a convenient starting point for an era where the main “control organ” was the program itself (more precisely, sets of instructions for a computer).
+В 1946 году показали **ENIAC** — один из первых программируемых компьютеров. Именно этот момент удобно взять как старт эпохи, где главным «органом управления» были программы (точнее, наборы инструкций для ЭВМ).
 
-Before that, calculating machines could only perform pre‑wired operations. ENIAC at first was even reprogrammed **manually**—by physically rewiring cables and reconfiguring circuits.
+До этого вычислительные машины умели делать заранее «вшитые» операции. А ENIAC поначалу вообще перепрограммировался **вручную** — физической перестановкой кабелей и перенастройкой схем.
 
-Computers quickly grew more complex, and one of the key milestones was the emergence of **first‑generation operating systems**. By today’s standards they were very simple: they mostly ensured **sequential execution** of programs.
+Дальше ЭВМ быстро усложнялись, и одна из ключевых вех — появление **операционных систем первого поколения**. По нынешним меркам они были очень простыми: в основном обеспечивали **последовательный запуск** программ.
 
-If we look for early “proto‑applications,” they’re surprisingly **games**. For example, Alexander Douglas’s Tic‑Tac‑Toe (1952). A modern UI barely existed yet, but interactivity was already appearing.
+Если искать ранние «предтечи приложений», то это, внезапно, **игры**. Например, “Крестики‑нолики” Александра Дугласа (1952). UI в современном понимании ещё почти не существовало, но интерактивность уже появлялась.
 
-Finally, high‑level languages. **Fortran** and **BASIC** made programming much easier. Programs began to be distributed via removable media and shared from user to user. For that era, this was a “peak”: programs became more widespread, understandable, and accessible.
+И наконец — языки высокого уровня. **Fortran** и **BASIC** сделали написание программ заметно проще. Программы начали распространяться через съёмные носители и передаваться от пользователя к пользователю. Для той эпохи это был «пик»: программы стали массовее, понятнее и доступнее.
 
-**Key milestones:**
+**Основные вехи этапа:**
 
-- **1946 ▸** one of the first programmable computers — **ENIAC**;
-- **1950 ▸** the ENIAC card reader appears;
-- **1952 ▸** an early interactive program (a predecessor of applications) — Tic‑Tac‑Toe;
-- **1957 ▸** the first popular high‑level language — **Fortran**;
-- **1964 ▸** the mass‑adopted language — **BASIC**.
+- **1946 ▸** один из первых программируемых компьютеров — **ENIAC**;
+- **1950 ▸** появление карт‑ридера для **ENIAC**;
+- **1952 ▸** одна из первых интерактивных программ (предтеча приложений) — “Крестики‑нолики”;
+- **1957 ▸** первый популярный язык высокого уровня — **Fortran**;
+- **1964 ▸** массовый язык программирования — **BASIC**.
 
-**Summary:** the “reign of programs” era is characterized by an almost complete lack of UI, running “one program at a time,” and the beginning of programs being shared between people.<br><br>
+**Итог:** эпоха «власти программ» — это почти полное отсутствие UI, запуск «по одной программе за раз» и начало того, что программы вообще стали распространяться между людьми.<br><br>
 
 <p align="center"><img src="assets/st2.png" width="100%" alt="Stage 2" /> </p>
 
-In the second stage, there are **many** programs, and alongside them **applications** begin to take shape. With BASIC, more and more people enter development: some write tools for themselves, others do it for fun. And when there are many programs, the question becomes inevitable: how do you make them usable for someone other than the author?
+На втором этапе программ становится **много**, и рядом с ними начинают оформляться **приложения**. С BASIC всё больше людей в принципе заходит в разработку: кто-то пишет для себя, кто-то — «для интереса». И где много программ, там неизбежно возникает вопрос: как сделать так, чтобы ими мог пользоваться не только автор?
 
-The obvious step is to **shape an interface**. Typing commands by hand, reading a README, and remembering launch parameters is only tolerable up to a point. UI is an evolutionary answer to rising complexity.
+Самый логичный шаг — **оформить интерфейс**. Ввести команды вручную, читать readme и помнить параметры запуска удобно только до определённого момента. UI — это эволюционный ответ на рост сложности.
 
-In 1965, **second‑generation operating systems** appear: multitasking, user sessions, and—most important for this story—a **file system**. It changes the rules: programs become files, code is separated from the “hardware” and from a specific medium.
+В 1965 появляются **операционные системы второго поколения**: многозадачность, пользовательские сессии и, что особенно важно для этой истории, **файловая система**. Она меняет правила игры: программы становятся файлами, код отделяется от «железа» и носителя.
 
-Against this backdrop, **UNIX** (1969) stands out. It becomes one of the most influential operating systems, and crucially it is no longer tied to a specific machine. Previously it was often the case that software was written for a specific computer. UNIX helps cement the idea that the same software can live across different configurations.
+На этом фоне особенно выделяется **UNIX** (1969). Она становится одной из самых влиятельных ОС и — ключевой момент — перестаёт быть жёстко привязанной к конкретной машине. Раньше часто было так: программа пишется под конкретное железо. С UNIX начинает закрепляться идея, что один и тот же софт может жить на разных конфигурациях.
 
-Once a program has a broad audience, investing in it becomes worthwhile. Developers more often do what we now consider normal: a convenient UI, clear workflows, and “human packaging.”
+Когда у программы появляется широкая аудитория, в неё становится выгодно вкладываться. И тут разработчики начинают чаще делать то, что мы теперь считаем нормой: **удобный интерфейс**, сценарии, «человеческую упаковку».
 
-On the user‑computing side, important events happen too:
+В этот период происходят и важные события на стороне пользовательского компьютинга:
 
-- **XEROX Alto** (1973) — one of the first computers with an advanced graphical interface, influencing the principles of modern OSes.
-- **Apple II** (1977) — one of the first truly mass‑market PCs, where “packaged” applications spread widely.
+- **XEROX Alto** (1973) — один из первых компьютеров с развитым графическим интерфейсом, который повлиял на принципы современных ОС.
+- **Apple II** (1977) — один из первых действительно массовых ПК, где приложения с «оформленным» интерфейсом начали распространяться широко.
 
-Early mass applications appear: text editors (Apple Writer), spreadsheets (VisiCalc), and so on. Software stops being a toy for engineers: it now solves practical tasks for “regular” users—write, calculate, plan.
+Появляются ранние массовые приложения: текстовые редакторы (Apple Writer), электронные таблицы (VisiCalc) и т.д. ПО перестаёт быть игрушкой для инженеров: теперь оно решает прикладные задачи «обычных» пользователей — печатать, считать, планировать.
 
-**Key milestones:**
+**Основные вехи этапа:**
 
-- **1965 ▸** second‑generation OSes: multitasking, user sessions, file systems;
-- **1969 ▸** **UNIX** — an OS independent from specific hardware, expanding the audience for software;
-- **1973 ▸** **XEROX Alto** — an early mature GUI and principles of future OSes;
-- **1977 ▸** **Apple II** — a mass‑market PC.
+- **1965 ▸** ОС второго поколения: многозадачность, пользовательские сессии, файловая система;
+- **1969 ▸** **UNIX** — ОС, независимая от конкретного «железа», что расширило аудиторию программ;
+- **1973 ▸** **XEROX Alto** — ранний развитый GUI и принципы будущих ОС;
+- **1977 ▸** **Apple II** — массовый ПК.
 
-**Summary:** the move from “bare programs” to applications was enabled by OS development and abstraction away from hardware. UI and mass computers turned software into a product: users began to choose what’s “convenient,” and developers began to profit from applications.<br><br>
+**Итог:** переход от «голых программ» к приложениям стал возможен благодаря развитию ОС и абстракции от железа. UI и массовые компьютеры превратили ПО в товар: пользователи начали выбирать «удобно/неудобно», а разработчики — зарабатывать на приложениях.<br><br>
 
 <p align="center"><img src="assets/st3.png" width="100%" alt="Stage 3" /> </p>
 
-The third stage is when applications become the norm rather than the exception.
+Третий этап — момент, когда приложения становятся нормой, а не исключением.
 
-In 1984, Apple releases the **Macintosh**—one of the first mass‑market computers with a windowed interface “like XEROX,” but actually polished into something usable. In 1985, **Windows 1.0** ships, and later **Windows 3.0** (1990), which quickly becomes a business standard.
+В 1984 Apple выпускает **Macintosh** — один из первых массовых компьютеров с оконным интерфейсом «как у XEROX», но реально доведённым до удобного состояния. В 1985 выходит **Windows 1.0**, а затем **Windows 3.0** (1990), и всё это быстро превращается в стандарт для бизнеса.
 
-What many still remember appears: the “office suite.”  
+Появляется то, что многие помнят до сих пор: «офисный пакет».  
 
-Word processors (WordPerfect, Word), spreadsheets (Lotus 1‑2‑3, Excel), presentations (PowerPoint). Applications become everyday work tools for millions.
+Текстовые редакторы (WordPerfect, Word), таблицы (Lotus 1‑2‑3, Excel), презентации (PowerPoint). Приложения становятся рабочим инструментом миллионов.
 
-In parallel, a “small screen world” starts to mature. In the 1980s, portable computers (for example, the TRS‑80 Model 100) appear with simple text editors and calendars. In the mid‑1990s, an important shift happens:
+Параллельно начинает зреть «мир маленьких экранов». В 1980-х появляются портативные компьютеры (например, TRS‑80 Model 100) с простыми текстовыми редакторами и календарями. А в середине 1990-х случается важный сдвиг:
 
-- **Palm OS** (1996) and **Windows CE** (1996) bring mass‑market PDAs;
-- the idea of syncing with a PC appears — a “companion app.”
+- **Palm OS** (1996) и **Windows CE** (1996) приносят массовые КПК;
+- появляется идея синхронизации с ПК — «приложение‑компаньон».
 
-Mobile phones begin to get built‑in games and organizers. And with **Java ME** (2000), users can install third‑party apps even on “regular” feature phones.
+И ещё один фактор: мобильные телефоны начинают получать встроенные игры и органайзеры. А с появлением **Java ME** (2000) пользователи уже могут ставить сторонние приложения даже на «обычные» телефоны.
 
-**Key milestones:**
+**Основные вехи этапа:**
 
-- **1984 ▸** **Macintosh** — a mass GUI + mouse;
-- **1985 ▸** **Windows 1.0** — the start of Microsoft’s graphical OS era;
-- **1990 ▸** the rise of office suites (Microsoft Office);
-- **1996 ▸** **Palm Pilot** — a mass‑market PDA;
-- **2000 ▸** **Java ME** — mobile apps on feature phones.
+- **1984 ▸** **Macintosh** — массовый GUI + мышь;
+- **1985 ▸** **Windows 1.0** — старт эпохи графических ОС Microsoft;
+- **1990 ▸** расцвет офисных пакетов (Microsoft Office);
+- **1996 ▸** **Palm Pilot** — массовый КПК;
+- **2000 ▸** **Java ME** — мобильные приложения на кнопочных телефонах.
 
-**Summary:** applications split into two camps — desktop (complex and powerful) and mobile (simple, efficient, designed for small screens).<br><br>
+**Итог:** приложения расходятся на два лагеря — настольные (сложные, мощные) и мобильные (простые, экономные, под маленький экран).<br><br>
 
 <p align="center"><img src="assets/st4.png" width="100%" alt="Stage 4" /> </p>
 
-The fourth stage is when mobile apps catch up to desktop—and then, in many ways, start to “pull” users toward themselves.
+Четвёртый этап — момент, когда мобильные приложения догоняют настольные, а затем во многом начинают их «перетягивать» по роли в жизни пользователя.
 
-In 2002, **Nokia 7650** on Symbian ships—one of the first mass‑market smartphones, capable of installing programs (via Bluetooth/internet) and featuring a camera.
+В 2002 выходит **Nokia 7650** на Symbian — один из первых массовых смартфонов, который уже умеет ставить программы (Bluetooth/интернет) и имеет камеру.
 
-But the key turning point is the **iPhone (2007)**. At first it had no third‑party apps: Steve Jobs suggested web apps. But in 2008, the **App Store** arrives: 500 apps at launch and 10 million downloads in the first week. After that, there’s no going back—an app becomes something you can find, buy, and install in a couple taps.
+Но ключевой перелом — **iPhone (2007)**. Изначально сторонних приложений на нём не было: Джобс предлагал делать веб‑приложения. Но в 2008 появляется **App Store**: 500 приложений на старте и 10 миллионов загрузок за первую неделю. Дальше назад дороги уже нет: приложение стало чем-то, что можно найти, купить и поставить за пару касаний.
 
-Google launches **Android** with its own store (Android Market → Google Play). A “mobile ecosystem war” begins, alongside explosive growth in categories:
+Почти сразу Google запускает **Android** со своим магазином (Android Market → Google Play). Начинается «мобильная война» экосистем, и вместе с ней — рост категорий:
 
-social networks, messengers, mobile games built around touch.
+соцсети, мессенджеры, мобильные игры с тач‑управлением.
 
-Desktop apps don’t disappear, but their role shifts toward professional tools (Photoshop, AutoCAD, Visual Studio) and demanding games.
+Настольные приложения никуда не исчезают, но их роль постепенно смещается в сторону профессиональных инструментов (Photoshop, AutoCAD, Visual Studio) и тяжёлых игр.
 
-**Key milestones:**
+**Основные вехи этапа:**
 
-- **2002 ▸** **Nokia 7650** (Symbian) — a mass‑market smartphone;
-- **2007 ▸** **iPhone** — the new era of touch interaction;
-- **2008 ▸** the launch of the **App Store** and **Android Market**;
-- **2010 ▸** **iPad** — tablets and their apps;
-- **2012 ▸** Android Market becomes **Google Play**.
+- **2002 ▸** **Nokia 7650** (Symbian) — массовый смартфон;
+- **2007 ▸** **iPhone** — новая эра сенсорного управления;
+- **2008 ▸** запуск **App Store** и **Android Market**;
+- **2010 ▸** **iPad** — планшеты и их приложения;
+- **2012 ▸** Android Market становится **Google Play**.
 
-**Summary:** mobile apps become the primary way billions of people “use a computer.” App stores solve distribution and monetization. Desktop retains its role mostly in professional and “heavy” scenarios.<br><br>
+**Итог:** мобильные приложения становятся основным способом «пользоваться компьютером» для миллиардов людей. Магазины приложений решают распространение и монетизацию. Десктоп удерживает позиции в основном в профессиональной среде и в «тяжёлых» сценариях.<br><br>
 
 <p align="center"><img src="assets/st5.png" width="100%" alt="Stage 5" /> </p>
 
-The fifth stage is the blurring of boundaries. Almost everyone has a smartphone, and many have laptops and tablets too—and the expectation is simple: **one app should live everywhere**.
+Пятый этап — стирание границ. Смартфон есть почти у всех, ноутбук и планшет — тоже, и ожидание теперь простое: **одно приложение должно жить везде**.
 
-Hence the push for cross‑platform: React Native (2015), Flutter (2017), PWAs. Nobody wants to build 3–4 separate clients; they want one product that feels consistent on phones and computers.
+Отсюда тренд на кроссплатформенность: React Native (2015), Flutter (2017), PWA. Не хочется писать 3–4 отдельных клиента — хочется один продукт, который будет одинаково узнаваем и на телефоне, и на компьютере.
 
-A second shift is the business model:
+Второй крупный сдвиг — бизнес‑модель:
 
-- before: “buy once”;
-- now: subscriptions and freemium (Adobe Creative Cloud, Microsoft 365, etc.).
+- раньше: «купил один раз»;
+- сейчас: подписки и freemium (Adobe Creative Cloud, Microsoft 365 и т.д.).
 
-A third is the cloud. Increasingly, an app is a service: data syncs, documents are edited in the browser, and the “desktop version” may be just a shell (Electron). Google Docs, Figma, Notion—exactly this.
+Третий — облака. Всё чаще приложение — это сервис: данные синхронизируются, документы редактируются в браузере, а «настольная версия» может быть просто оболочкой (Electron). Google Docs, Figma, Notion — ровно про это.
 
-OSes themselves move in this direction:
+Сами ОС тоже двигаются в эту сторону:
 
-- Apple enables running iOS apps on Macs with M1 (2020);
-- Windows 11 adds Android app support (2021).
+- Apple делает запуск iOS‑приложений на Mac с M1 (2020);
+- Windows 11 добавляет поддержку Android‑приложений (2021).
 
-**Key milestones:**
+**Основные вехи этапа:**
 
-- **2015 ▸** **Windows 10** and the idea of universal apps (UWP);
-- **2017 ▸** **Flutter** — a powerful cross‑platform framework;
-- **2020 ▸** **Apple M1** — iOS apps on Mac;
-- **2021 ▸** **Windows 11** — Android apps via the Amazon Appstore;
-- **2023 ▸** the mass rollout of **AI features** in applications.
+- **2015 ▸** **Windows 10** и идея универсальных приложений (UWP);
+- **2017 ▸** **Flutter** — мощный кроссплатформенный фреймворк;
+- **2020 ▸** **Apple M1** — iOS‑приложения на Mac;
+- **2021 ▸** **Windows 11** — Android‑приложения через Amazon Appstore;
+- **2023 ▸** массовое внедрение **AI‑функций** в приложения.
 
-**Summary:** the difference between “desktop vs mobile” becomes increasingly conditional. Users think less about installation and more about access/subscription/sync. We moved from “programs on disks” to “apps as services.”<br><br>
+**Итог:** различие «настольное vs мобильное» постепенно становится условным. Пользователь всё меньше думает про установку и всё больше — про доступ/подписку/синхронизацию. Мы перешли от «программ на дисках» к «приложениям как услугам».<br><br>
 
 <img src="assets/recap.png" height="25" alt="Recap"/>
 
-We traveled from “programs as a set of commands” to applications as products and services—with UIs, habits, and an expectation of constant availability across devices. This shift made software mass‑market and convenient, but it also mixed different “cultures” of use (desktop and mobile) in one world. Next, it’s important to see how this collision shows up on the desktop today—and why familiar desktop‑environment mechanisms no longer cope.<br><br><br><br>
+Мы прошли путь от «программ как набора команд» к приложениям как продуктам и сервисам — с интерфейсом, привычками и ожиданием постоянной доступности на разных устройствах. Этот переход сделал ПО массовым и удобным, но одновременно смешал в одном мире разные «культуры» использования (настольную и мобильную). Дальше важно понять, как именно это столкновение проявляется на десктопе сегодня — и почему привычные механизмы DE перестали справляться.<br><br><br><br>
 
 <p align="center"><img src="assets/Chapter 2.png" width="100%" alt="🔸 Chapter 2" /> </p>
 
-Since the 1980s, the world of software has changed dramatically. You can clearly say: desktop and mobile apps are two different worlds:
+Со времён 80-ых мир программ разительно изменился. Можно чётко сказать: настольные и мобильные приложения — это два разных мира:
 
-- desktop (Photoshop, Visual Studio, Excel) grew out of “many features → many windows → many settings”;
-- mobile (Telegram, maps, weather) grew out of “one screen → one task → minimal taps.”
+- настольные (Photoshop, Visual Studio, Excel) выросли из эпохи «много функций → много окон → много настроек»;
+- мобильные (Telegram, карты, погода) — из эпохи «один экран → одна задача → минимум действий пальцем».
 
-And everything seems fine: you work on a big screen and chat on your phone. But on the desktop, these two worlds are forced to live under the same OS rules—rules that were historically written for the “classic” desktop class of applications.
+И вроде всё неплохо: на большом мониторе ты работаешь, на телефоне — общаешься. Но на десктопе эти два мира вынуждены жить по одним и тем же правилам ОС, которые исторически писались под «старый» класс настольных приложений.
 
-The problem isn’t that “we couldn’t do better before,” but that the industry didn’t have time to rebuild the desktop OS model around new habits. Now, as more software lives in the background and competes for attention, rebuilding these rules becomes not a whim, but a practical necessity.<br><br>
+Проблема не в том, что «раньше не могли сделать лучше», а в том, что индустрия просто не успела перестроить модель настольных ОС под новые привычки. А теперь, когда всё больше софта живёт в фоне и конкурирует за внимание, пересборка этих правил становится не прихотью, а практической необходимостью.<br><br>
 
-### 🔔 The notification system
+### 🔔 Система уведомлений
 
-Take notifications. Windows (and most Linux environments) has a system notification center where apps can send messages.
+Возьмём уведомления. В Windows (и в большинстве Linux‑окружений) есть системный центр уведомлений: туда приложения могут отправлять сообщения.
 
-For “classic” desktop apps, that’s enough: an antivirus or backup utility speaks rarely and to the point.
+Для «классических» настольных приложений этого достаточно: антивирус или бэкап‑утилита пишут редко и по делу.
 
-But messengers and “mobile‑spirited” apps live at a different pace. They need:
+А вот мессенджеры и «мобильные по духу» приложения живут в другом темпе. Им нужно:
 
-- grouping by chats,
-- reactions,
-- quick reply directly from the notification,
-- custom sounds,
-- unread badges,
-- etc.
+- группировать сообщения по чатам,
+- реакции,
+- быстрый ответ прямо из уведомления,
+- кастомные звуки,
+- бейджи непрочитанного,
+- и т.д.
 
-What do developers do? They build their own. Telegram shows its own popups over the system ones. Discord has its own. Slack has its own. As a result, three different windows can appear in the same corner of the screen—each with different behavior, styling, and closing logic. No beauty, no consistency.<br><br>
+Что делают разработчики? Делают своё. Telegram показывает собственные попапы поверх системных. Discord — свои. Slack — свои. В итоге в одном углу экрана может одновременно появиться три разных окна от трёх разных приложений — с разным поведением, стилем и логикой закрытия. Красоты ноль, консистентности ноль.<br><br>
 
 <p align="center"><img src="assets/telegram.png" width="30%" alt="Custom Telegram notifications"/></p>
 <br>
 
-### 📦 The tray problem
+### 📦 Проблема трея
 
-Next: the system tray (the area near the clock). The tray idea is good: give background apps a small icon so they stay “at hand” without getting in the way. But many Windows users, looking at their tray, will see a huge number of icons hidden behind an arrow.
+Следом — системный трей (область рядом с часами). Идея трея вообще-то хорошая: дать фоновым программам маленькую иконку, чтобы они были «под рукой» и не мешали. Но многие Windows-пользователи, взглянув в свой трей увидят там огромное количество значков, спрятанных под стрелочкой. 
 
-For example, the GNOME team refused to implement the classic tray in their DE, because it almost inevitably turns into a graveyard of icons and a UX landfill: half the icons live there for unclear reasons and it’s hard to tell what they even do. Their solution is radical: “remove the problem by removing the object” — minimalism at its purest.
+Так, например, команда GNOME в своём DE отказались от имплементации трея, потому что он почти неизбежно превращается в кладбище иконок и в UX‑помойку, где половина значков непонятно зачем живёт и что вообще делает. Их решение радикальное: «убрать проблему, убрав сам объект» - минимализм в чистом виде. 
 
-With the arrival of “mobile‑spirited” apps, the tray really does easily become a dump:
+С приходом «мобильных» по духу приложений трей и правда легко превращается в свалку:
 
-Telegram, Discord, Steam, Epic Games Launcher, cloud drives, password managers, peripheral utilities—many apps want to add their own icon there.
+Telegram, Discord, Steam, Epic Games Launcher, облачные диски, менеджеры паролей, утилиты периферии — очень многие приложения хотят добавить туда свою иконку.
 
-The tray becomes not a “quick actions panel,” but an indicator of “how much stuff you have running.” Many apps also add themselves to autostart without asking and slow system boot.
+И трей стал не «панелью быстрых действий», а индикатором «сколько всего у тебя сейчас запущено». Плюс, многие программы без спроса лезут в автозагрузку и замедляют старт системы.
 
-A positive tray example is **Telegram** on Windows. By default it opens a full window on the taskbar. But a typical messenger workflow is “launch and forget,” while notifications arrive in the background. Telegram can live in the tray properly: it minimizes, keeps working, and the icon becomes the main entry point.
+Позитивный пример использования трея — **Telegram** на Windows. По умолчанию он открывает полноценное окно на панели задач. Но типичный сценарий мессенджера — «запустил и забыл», а уведомления приходят в фоне. Telegram умеет жить в трее нормально: свернулся, продолжает работать, иконка — основная точка входа.
 
-A bad example is when an app—while minimized—still sits both on the taskbar and in the tray. Why? Because there is no clear OS‑level rule like “a background app doesn’t need taskbar space.” Developers decide every time—and decide differently.<br><br>
+Не лучший пример — когда даже в свернутом виде приложение остаётся и на панели задач, и в трее. Зачем? Потому что нет чёткого правила на уровне ОС: «фоновому приложению не надо занимать место на панели задач». Разработчики каждый раз решают это сами — и решают по‑разному.<br><br>
 
 <p align="center"><img src="assets/tray.png" width="30%" alt="Reimagined Tray"/></p>
 <br>
 
-### ⚙️ Blurred boundaries between “application” and “service”
+### ⚙️ Размытие границ между «приложением» и «сервисом»
 
-Desktop OSes poorly distinguish between:
+Настольные ОС плохо различают:
 
-- an application you actively work in for hours,
-- and a lightweight client/agent that should pop up for a second and then fade into the background.
+- приложение, с которым работают часами,
+- и лёгкий клиент/агент, который должен появляться на секунду и уходить в фон.
 
-Look at game launchers: Steam, Epic Games, GOG Galaxy. They start with the system, sit in the tray, download updates, send discount notifications. In essence, they’re background services with a storefront. But the system treats them like “normal apps”: they can open windows, take screen space, and stay running after you close them.
+Посмотрите на лаунчеры игр: Steam, Epic Games, GOG Galaxy. Они запускаются вместе с системой, висят в трее, скачивают обновления, присылают уведомления о скидках. По сути это фоновые сервисы с витриной магазина. Но система относится к ним как к «обычным приложениям»: могут открыть окно, занять экран, остаться в фоне после закрытия.
 
-The flip side is that some heavy desktop apps (for example, Adobe Creative Cloud) behave like mobile: constantly updating, living in the tray, pushing marketing notifications. This isn’t about technology—it’s about philosophy and the lack of clear system boundaries.<br><br>
+Обратная сторона — некоторые тяжёлые десктопные приложения (например, Adobe Creative Cloud) ведут себя как мобильные: вечно обновляются, висят в трее, пушат «маркетинговые» уведомления. Это уже не про технологию — это про философию и отсутствие понятных системных рамок.<br><br>
 
 <img src="assets/recap.png" height="25" alt="Recap"/>
 
-The conflict shows up as a set of symptoms: inconsistent rules for background life, fragmented UX solutions, and unclear boundaries of what counts as an “app” versus a “background agent.” As long as the system doesn’t distinguish behavior types, each product will improvise. So the next step is to give ourselves a language and a model: what classes of software exist, and what rights/expectations should each have?<br><br><br><br>
+Конфликт проявляется в наборе симптомов: разные правила фоновой жизни приложений, разрозненные UX‑решения и отсутствие чётких границ, что именно считается «приложением», а что — «фоновым агентом». Пока система не различает типы поведения, каждый продукт будет выкручиваться как может. Поэтому следующий шаг — дать языком и моделью описать эти типы: что за классы ПО вообще существуют и какие права/ожидания должны быть у каждого.<br><br><br><br>
 
 <p align="center"><img src="assets/Chapter 3.png" width="100%" alt="🔸 Chapter 3" /> </p>
 
-Based on the problems above, I’ll introduce a classification that helps us understand the needs and behavior of different types of software.
+Исходя из проблемы выше, введу классификацию, которая поможет понять потребности и характер поведения разных типов ПО.
 
-Outside the scope are apps for wearables (watches/glasses). Here we consider software for smartphones, tablets, and PCs.<br><br>
+За рамками — программы для носимых устройств (часы/очки). Здесь рассматриваю ПО для смартфонов, планшетов и ПК.<br><br>
 
-### 🔸System services
+### 🔸Системные сервисы
 
-This is the system layer: components and background processes that keep the OS, hardware, and other applications running.
+Это системный уровень: компоненты и фоновые процессы, которые обеспечивают работу ОС, железа и других приложений.
 
-Usually they have no UI, or the UI exists only for configuration. They are not meant for “constant interaction.”
+Обычно у них либо нет UI, либо UI существует только для настройки. Они не рассчитаны на «постоянное взаимодействие».
 
-System‑level software includes:
+К системному уровню относятся:
 
-- OS components (kernel, subsystems) — manage memory, processes, drivers, and system calls;
-- device drivers — the layer between the OS and hardware;
-- system services/daemons — background processes (sshd, cron, print spooler, etc.);
-- OS/software update agents;
-- antivirus engines (often a service + a separate management utility).
+- компоненты ОС (ядро, подсистемы) — управляют памятью, процессами, драйверами и системными вызовами;
+- драйверы устройств — прослойка между ОС и железом;
+- системные службы/демоны — фоновые процессы (sshd, cron, спулер печати и т.д.);
+- агенты обновлений ОС/ПО;
+- антивирусные движки (часто служба + отдельная утилита управления).
 
-Key criteria:
+Ключевые критерии:
 
-- **activity:** background‑only (a settings utility may exist);
-- **lifecycle:** start with the system and live as long as the OS is on;
-- **notifications:** not sent directly; interaction via logs/events;
-- **autostart/services:** yes—this is their nature.
+- **активность:** исключительно фоновая (возможна утилита настроек);
+- **жизненный цикл:** стартуют вместе с системой и живут, пока ОС включена;
+- **уведомления:** напрямую не отправляют; взаимодействие — через логи/события;
+- **автозагрузка/службы:** да, это их природа.
 
-In short, it’s infrastructure. Not desktop, not mobile—foundational.<br><br>
+По сути, это «инфраструктура». Она не настольная и не мобильная — она базовая.<br><br>
 
-### 🔸Primary applications
+### 🔸Основные приложения
 
-These are applications whose core function almost always requires an **open window**.
+Это приложения, у которых главная функция почти всегда требует **открытого окна**.
 
-Examples: IDEs, editors, Notion/Anytype, Photoshop, Audacity, and so on. Computer games belong here too.
+Примеры: IDE, монтажки, Notion/Anytype, Photoshop, Audacity и т.п. Сюда же — компьютерные игры.
 
-They **don’t need the tray**. They consume a lot of resources and are rarely used as background companions alongside other heavy software.
+Таким приложениям **не нужен трей**. Они потребляют много ресурсов и редко используются как фоновые параллельно с другим тяжёлым софтом.
 
-Key criteria:
+Ключевые критерии:
 
-- **activity:** main window (taskbar as the access point);
-- **lifecycle:** close the window = the app exits (no “minimize to tray”);
-- **notifications:** allowed, but rare and meaningful;
-- **autostart/services:** forbidden by default (if needed at all—only via explicit user action).
+- **активность:** основное окно (панель задач в качестве точки доступа);
+- **жизненный цикл:** закрыл окно = приложение завершилось (без «сворачивания в трей»);
+- **уведомления:** допустимы, но редкие и по делу;
+- **автозагрузка/службы:** запрещены по умолчанию (если вообще нужно — только по явному действию пользователя).
 
-The point is simple: these are heavy tools and they should not turn into background parasites.<br><br>
+Смысл основной категории простой: это тяжёлые инструменты, которые не должны превращаться в фоновые.<br><br>
 
-### 🔸Auxiliary applications
+### 🔸Вспомогательные приложения
 
-These are the ones that **naturally live in the background**: VPN, email, messengers, torrent clients, music, etc.
+Это те, кто **естественно живёт в фоне**: VPN, почта, мессенджеры, торрент‑клиенты, музыка и т.д.
 
-Their typical loop is “open → minimize → open → minimize.” They need the tray as their primary presence: icon, status, quick actions. These are direct descendants of the mobile philosophy.
+Их типичный цикл — «открыл → свернул → открыл → свернул». Им нужен трей как основной способ присутствия: иконка, статус, быстрые действия. Это прямые наследники мобильной философии. 
 
-Key criteria:
+Ключевые критерии:
 
-- **activity:** background; often lives in the tray; can open a window and then be minimized;
-- **lifecycle:** staying alive after closing the window is allowed;
-- **notifications:** allowed; advanced scenarios may exist;
-- **autostart/services:** allowed, but only with explicit user consent and transparent control.<br><br>
+- **активность:** фоновая, приложение часто висит в трее, может быть открыто в окно, затем свёрнуто;
+- **жизненный цикл:** фон после закрытия окна допускается;
+- **уведомления:** разрешены, возможны расширенные сценарии;
+- **автозагрузка/службы:** допустимы, но только с явного согласия пользователя и с прозрачным контролем.<br><br>
 
-### 🔸Secondary applications
+### 🔸Вторичные приложения
 
-This is a “middle” class: interactive, episodic apps that you open “when needed” and close without wanting them to remain in the background.
+Это «промежуточный» класс: интерактивные, эпизодические приложения, которые открывают «по делу» и закрывают без желания держать их в фоне.
 
-Examples: browser, calculator, file manager, image viewer, timer, etc.
+Примеры: браузер, калькулятор, файловый менеджер, просмотрщик изображений, таймер и т.д.
 
-Key criteria:
+Ключевые критерии:
 
-- **activity:** typically an active window, sometimes short‑lived background work;
-- **lifecycle:** episodic use; close the window = exit;
-- **notifications:** optional and usually limited;
-- **autostart/services:** forbidden by default (if present at all—it’s an exception).
+- **активность:** возможно как активное основное окно, так и фоновая активность;
+- **жизненный цикл:** эпизодическое использование; закрыл окно = завершилось;
+- **уведомления:** необязательны и обычно ограничены;
+- **автозагрузка/службы:** запрещены по умолчанию (если и бывают — скорее исключение).
 
-Important principle: if the user **explicitly closes** a secondary application, it should not linger in the background as a “tail.”<br><br>
+Важный принцип: если пользователь **явно закрыл** вторичное приложение — оно не должно оставаться в фоне «хвостом».<br><br>
 
 <img src="assets/recap.png" height="25" alt="Recap"/>
 
-The classification turns the vague “apps behave weirdly” into concrete classes with different lifecycles: what must live only as a window, what may stay in the background, and what should be a service without UI at all. This sets the rules of the game and lets us discuss constraints without taste wars. Next comes the main question: how do we make these rules work not by “agreement,” but technically—at the OS level and through its APIs?<br><br><br><br>
+Классификация превращает расплывчатое «приложения ведут себя странно» в конкретные классы с разным жизненным циклом: что обязано жить только окном, что имеет право оставаться в фоне, а что вообще должно быть сервисом без UI. Это задаёт правила игры и позволяет обсуждать ограничения без вкусовщины. Дальше остаётся главный вопрос: как сделать так, чтобы эти правила работали не «по договорённости», а технически — на уровне ОС и её API.<br><br><br><br>
 
 <p align="center"><img src="assets/Chapter 4.png" width="100%" alt="🔸 Chapter 4" /> </p>
 
-From the previous chapters, two things are clear:
+Из предыдущих глав видно две вещи:
 
-1) modern desktop OSes do not distinguish app classes—messengers and Photoshop live by the same rules;
+1) современные настольные ОС не различают классы приложений — мессенджер и Photoshop живут по одним правилам;
 
-2) we proposed a classification: system services, primary, auxiliary, and secondary applications.
+2) мы предложили классификацию: системные сервисы, основные, вспомогательные, вторичные.
 
-Now the main question: what exactly needs to change so this works in practice, not just on paper?<br><br>
+Теперь главный вопрос: что именно нужно изменить, чтобы это работало не на бумаге?<br><br>
 
-### Explicitly declaring an app class
+### Явное декларирование класса приложения
 
-When publishing an app (or in a manifest), the developer must specify a class: **primary / auxiliary / secondary**.
+Разработчик при публикации приложения (или в манифесте) обязан указать класс: **основное / вспомогательное / вторичное**.
 
-If no class is specified, the OS treats the app as **primary by default** (with strict limits on background behavior and the tray).
+Если класс не указан — ОС трактует приложение как **основное по умолчанию** (со строгими ограничениями на фон и трей).
 
-The user must be able to override the class at any time (for example, move a torrent client from “primary” to “auxiliary”).
+Пользователь в любой момент должен иметь возможность переопределить класс вручную (например, перевести торрент‑клиент из «основных» во «вспомогательные»).
 
-To ensure this isn’t just a declaration, “background capabilities” should be exposed as dedicated system APIs:
+Чтобы это не осталось декларацией, права должны быть закреплены технически. Для этого ОС выносит «фоновые возможности» в отдельные системные API:
 
-- showing a tray icon,
-- adding to autostart,
-- sending notifications (including advanced features).
+- показ иконки в трее,
+- добавление в автозагрузку,
+- отправка уведомлений (включая расширенные функции).
 
-The app gets access only through these APIs, and the OS decides to allow or deny based on the class (and user settings).
+Приложение получает доступ только через эти API, а ОС уже решает — разрешить или отклонить — на основании класса (и пользовательских настроек).
 
-For legacy apps without a manifest, the OS should prompt on first launch to choose a class: a short dialog with 2–3 options and examples. Skipped it? Choose later.
+Для легаси‑приложений без манифеста ОС должна при первом запуске предложить выбрать класс: короткое окно с 2–3 вариантами и примерами. Пропустил — можно выбрать позже.
 
-To reduce abuse (spam/malware), access to tray/autostart/advanced notifications should come with safeguards:
+Чтобы снизить риск злоупотреблений (spam/malware), доступ к трею/автозагрузке/расширенным уведомлениям должен сопровождаться защитой:
 
-- clear labeling of notification sources,
-- preventing imitation of system dialogs,
-- a quick “reset permissions” path by downgrading the class in settings.
+- явная маркировка источника уведомлений,
+- запрет имитации системных диалогов,
+- быстрый «сброс прав» через понижение класса в настройках.
 
-OS settings should add new sections:
+В настройках ОС должны появиться новые разделы:
 
-- **Background agents** — a list of all auxiliary apps: autostart, background activity, tray use, resource usage;
-- **Autostart** — a centralized list with toggles and warnings;
-- **App class** — overriding the class for each installed program.
+- **«Фоновые агенты»** — список всех вспомогательных приложений: автозагрузка, фон, использование трея, ресурсы;
+- **«Автозагрузка»** — централизованный список с переключателями и предупреждениями;
+- **«Класс приложения»** — переопределение класса для каждой установленной программы.
 
-Apps without a declaration get “primary” status with strict rules: autostart only if the user adds it; minimizing to tray is forbidden; notifications are basic. The OS may maintain a database of popular apps and their recommended class until apps adopt these features.
+Все приложения без декларации получают статус «основные» со строгими правилами: автозагрузка только при внесении программы в список пользователем, сворачивание в трей запрещено, уведомления — базовые. Операционная система, при этом, может иметь базу, в которой хранить самые популярные приложения и определять их класс, если они ещё не внедрили эти функции.
 
-**Class behavior at the OS level:**
+**Характеристики классов в рамках ОС:**
 
-**Primary apps:**
+**Основные приложения:**
 
-- autostart forbidden (except explicit user action);
-- minimizing to tray forbidden;
-- notifications only through the system center (limited);
-- presence on screen via the taskbar.
+- автозагрузка запрещена (кроме явного ручного действия пользователя);
+- сворачивание в трей запрещено;
+- уведомления — только через системный центр (ограниченные);
+- место на экране — панель задач.
 
-**Auxiliary apps:**
+**Вспомогательные приложения:**
 
-- a legal place in the tray — a persistent icon;
-- autostart allowed, but only with a mandatory prompt on first launch;
-- notifications with advanced capabilities;
-- background allowed; services are possible, but fully controllable by the user (clear names, visibility, ability to disable). The user should see that “TelegramUpdateService” is indeed a Telegram service.<br><br>
+- имеют легальное место в трее — постоянная иконка;
+- автозагрузка разрешена, но с обязательным запросом при первом запуске;
+- уведомления с расширенными возможностями;
+- фон разрешён, возможны службы, но полностью подконтрольные пользователю (понятные имена, видимость, возможность отключить). Пользователь должен видеть, что TelegramUpdateService — это именно сервис Telegram.
 
-**Secondary apps:**
+**Вторичные приложения:**  
 
-Similar to primary, but with nuances:
+Схожи с основными, но с нюансом:
 
-- no permanent tray icon, but may show a temporary background‑task indicator (and disappear when not needed);
-- may expose extended quick actions via the taskbar context menu.<br><br>
+- не имеют постоянной иконки в трее, но могут временно показывать индикатор фоновой задачи (и исчезать при ненадобности);
+- могут иметь расширенные быстрые команды в контекстном меню панели задач.<br><br>
 
-### Reworking the tray and the taskbar
+### Переработка трея и панели задач
 
-The tray should become an **information hub** for apps that genuinely need to live in the background. It keeps the “home” for auxiliary applications, lets users pin them and open them, but doesn’t stop there.
+Трей должен стать **информационным центром** для приложений, которым реально нужно жить в фоне. Он сохраняет функцию «хранения» вспомогательных приложений, даёт пользователю возможность закреплять их и открывать, но не ограничивается этим.
 
-This is, in essence, the answer to the argument that made GNOME try to “bury” the classic tray: yes—if everyone is allowed to do anything, it will get cluttered. But instead of cutting the whole thing, we can introduce OS‑level rules and limitations: who has the right to be in the tray, how, when, and why.
+Это, по сути, ответ на тот самый аргумент, из-за которого GNOME и пытался «похоронить» классический трей: да, если разрешить всем делать что угодно, он захламится. Но вместо того, чтобы рубить с плеча, можно ввести правила и ограничения на уровне ОС — кто имеет право быть в трее, как, когда и зачем.
 
-As in Windows today, right‑clicking an icon should provide a quick‑actions menu so the user can change app state without opening a window.
+Как и сейчас в Windows, правый клик по иконке даёт меню быстрых действий, чтобы можно было менять статус приложения без открытия окна.
 
-The taskbar, meanwhile, is the territory of primary and secondary apps. Secondary apps can get richer actions via the context menu (as Windows Explorer does).<br><br>
+Панель задач, при этом — территория основных и вторичных приложений. А вторичным можно давать расширенные действия через контекстное меню (как у проводника в Windows).<br><br>
 
 <p align="center"><img src="assets/tray reimagined.png" width="30%" alt="Reimagined Tray"/></p>
 <br>
 
-### Fixing the notification system
+### Исправление системы уведомлений
 
-The goal is to make it no longer beneficial for apps to “build their own” on top of the system center.
+Задача — сделать так, чтобы приложениям перестало быть выгодно «строить своё» поверх системного центра.
 
-The OS should provide several access tiers:
+ОС должна дать несколько уровней доступа:
 
-- **Basic (for all apps):**
-    - text;
-    - icon;
-    - buttons;
-    - progress bar;
-- **Advanced (for auxiliary apps):**
-    - an input field for quick reply;
-    - interactivity;
-    - grouping;
-    - notification categories.
+- **Базовый (для всех приложений):**
+    - текст;
+    - иконка;
+    - кнопки;
+    - прогресс‑бар;
+- **Расширенный (для вспомогательных приложений):**
+    - поле ввода для быстрого ответа;
+    - интерактивность;
+    - группировка;
+    - категории уведомлений.
 
-The OS also needs a proper **Do Not Disturb** mode and **notification sounds**: apps should not play their own sound—an app sends an event, and the OS plays the sound chosen by the user (the app may provide a default).<br><br>
+Нужно также сделать нормальную настройку **«Не беспокоить»** и **звуков уведомлений**: приложение не должно проигрывать свой звук само — оно передаёт событие, а ОС воспроизводит выбранный пользователем сигнал (при этом приложение может предложить дефолтный).<br><br>
 
 <p align="center"><img src="assets/noty reimagined.png" width="30%" alt="Reimagined Notifications"/></p>
 <br>
 
 <img src="assets/recap.png" height="25" alt="Recap"/>
 
-We now have the “skeleton” of a solution: app classes become not an abstraction, but the basis for rights and constraints (tray, notifications, autostart, background) via unified system APIs. This returns control to users and predictability to developers: fewer hacks, more proper system scenarios. Next, we can talk about the “layers on top”: what new UX mechanisms become possible once the platform has this kind of framework.<br><br><br><br>
+Мы получили «скелет» решения: классы приложений становятся не абстракцией, а основанием для прав и ограничений (трей, уведомления, автозагрузка, фон) через единые системные API. Это возвращает контроль пользователю и предсказуемость разработчикам: меньше костылей — больше нормальных системных сценариев. Дальше можно говорить о надстройках: какие новые UX‑механики становятся возможны, когда у платформы появляется такой каркас.<br><br><br><br>
 
 <p align="center"><img src="assets/Chapter 5.png" width="100%" alt="🔸 Chapter 5" /> </p>
 
-The changes above help us organize applications inside the OS. In this chapter we’ll look at what functionality could be built on top of that foundation so the OS feels even more predictable and comfortable for everyday computer work.<br><br>
+Представленные изменения позволяют нам лучше систематизировать приложения в рамках операционной системы. В этой главе мы рассмотрим, какой функционал на основе этих изменений можно внедрить, чтобы пользователь почувствовал операционную систему ещё более предсказуемым и удобным инструментом для своей компьютерной деятельности.<br><br>
 
-### Notification categories
+### Категории уведомлений
 
-OS‑level categories let you separate notifications by type and importance and give the user real control.
+Категории на уровне ОС позволят разделять уведомления по типам и важности и дать пользователю нормальную настройку.
 
-Example: if Steam adopts this, a user could configure separately:
+Пример: если такое внедрит Steam, пользователь сможет настроить отдельно:
 
-sales, friend messages, gifts—and assign each its own sound/priority.
+скидки, сообщения от друзей, подарки — и назначить каждому свой звук/приоритет.
 
-For Telegram, it would make sense to split notifications by account for people who use multiple accounts.
+Для Telegram логично смотрится разделение уведомлений по аккаунтам у тех, кто использует несколько.
 
-Users should be able to:
+Пользователь должен мочь:
 
-- disable promotional notifications entirely while keeping messages;
-- assign a separate sound;
-- allow a category even during Do Not Disturb.
+- отключить рекламные уведомления полностью, оставив сообщения;
+- задать отдельный звук;
+- разрешить показывать категорию даже в «Не беспокоить».
 
-As with mobile OSes, the system cannot “force” developers to use categories, but we can expect conscientious developers to adopt them.<br><br>
+Как и на мобильных системах, в рамках системы не будет возможности “принуждать” разработчиков использовать категории, однако можно рассчитывать, что добросовестные разработчики смогут эту возможность использовать.<br><br>
 
-### System widgets and extending the tray
+### Системные виджеты и расширение трея
 
-Once the tray is “cleaned up,” it becomes clear that it can be more than a place for icons.
+Когда «трей» приведён в порядок, становится видно, что это потенциально не просто место для иконок.
 
-Mobile OSes have long developed widgets, Dynamic Island, and “live” notifications. On desktop, an analogue could be fast, visual control over background apps: timers, music, downloads, voice channels.
+Мобильные ОС давно развивают идею виджетов, Dynamic Island и «живых» уведомлений. На десктопе аналогом может стать быстрый, наглядный контроль фоновых приложений: таймеры, музыка, загрузки, голосовые каналы.
 
-If auxiliary apps often go to the background (Discord, Telegram), tray widgets help you understand what’s happening without switching back to the window: who’s speaking in a voice channel, what track is playing, how many percent have downloaded.
+Если вспомогательные приложения часто уходят в фон (Discord, Telegram), то виджеты в трее позволяют понять, что происходит, не возвращаясь в окно: кто говорит в голосовом канале, какой трек звучит, сколько процентов скачано.
 
-**Notification badges** on a tray icon should also be extended so they can show not only “unread count,” but small statuses/icons (from a set or custom) to indicate modes: “silent,” “VPN connected to X,” and so on.<br><br>
+**Бейджи уведомлений** на иконке в трее тоже стоит расширить, чтобы они показывали не только «количество непрочитанных сообщений», но и маленькие статусы/иконки из набора или кастомные, чтобы показывать режимы: «тихо», «VPN подключён к X», и т.д.<br><br>
 
 <p align="center"><img src="assets/tray reimagined 2.png" width="30%" alt="Reimagined Tray"/></p>
 <br>
 
-### System modes
+### Режимы системы
 
-Another powerful layer is **system modes**. Yes, they require manual setup and not everyone uses them. But for those who do, they offer real value.
+Ещё один мощный слой — **режимы системы**. Да, они требуют ручной настройки, и этим пользуются не все. Но тем, кто пользуется, они дают реально полезную магию.
 
-A mode can define:
+Режим может определять:
 
-- which apps are active/frozen,
-- which notifications are allowed through,
-- how the desktop/pins look,
-- which sounds and rules apply.
+- какие приложения активны/заморожены,
+- какие уведомления проходят,
+- как выглядит рабочий стол/закрепления,
+- какие звуки и правила действуют.
 
-Imagine a typical workday. You turn on “Work” mode and the OS reshapes app behavior:
+Представим, как это будет использоваться. Обычный рабочий день. Ты включаешь режим «Работа», и система перестраивает поведение приложений:
 
-- Discord stays in the background as an auxiliary app: tray shows voice status, notifications only for @mentions.
-- Telegram doesn’t spam: messages are quiet, “promo” and reactions have their own category.
-- Steam in “Work” doesn’t show sales, and in “Rest” may remind you about a sale.
-- VPN lives as a compact tray button/widget, and autostart is transparently visible in settings.
+- Discord остаётся в фоне как вспомогательное: в трее виден статус голосового, уведомления — только на @упоминания.
+- Telegram не спамит: сообщения идут тихо, «промо» и реакции — отдельной категорией.
+- Steam в «Работе» не показывает скидки, а в «Отдыхе» — наоборот, может напомнить о распродаже.
+- VPN живёт как компактная кнопка/виджет в трее, а автозапуск прозрачно виден в настройках.
 
-The point isn’t that “features appeared.” The point is that the OS finally manages this centrally—and the user controls the background, not the other way around.<br><br>
+Фишка не в том, что «функции появились». Фишка в том, что ОС наконец-то управляет этим централизованно — и пользователь контролирует фон, а не наоборот.<br><br>
 
 <img src="assets/recap.png" height="25" alt="Recap"/>
 
-When the system has a framework and control, “tasty” add‑ons become possible—not as app‑specific hacks, but as a unified platform: notification categories, tray widgets/info panels, and work modes. These ideas don’t replace the foundation—they unlock its potential. UX stops being a collection of compromises and becomes a manageable environment. Next we just need to lock in the overall conclusion and state what exactly matters to change in our approach to DE/OS.<br>
+Когда у системы появляется каркас и контроль, появляются и «вкусные» надстройки — не как хаки отдельных приложений, а как единая платформа: категории уведомлений, виджеты/инфо‑панели, режимы работы. Эти идеи не заменяют основу, а раскрывают её потенциал: UX становится не набором компромиссов, а управляемой средой. Дальше остаётся только закрепить общий вывод и сформулировать, что именно важно менять в подходе к DE/ОС.<br>
 <p align="center"><img src="assets/Yatta.png" width="80%" alt="Yatta Desktop"/></p>
 <br><br><br>
 
 <p align="center"><img src="assets/Conclusion.png" width="100%" alt="🔺Conclusion" /> </p>
 
-In short, the problem with modern desktop environments isn’t that “everything is implemented badly,” but that the world of applications changed faster than the rules of the desktop environment did. The desktop inherited habits from the “windows and programs” era, and then collided with the philosophy of “app‑services” that live in the background and constantly demand attention. When the system doesn’t distinguish these behavior types, chaos begins: each product pulls the blanket toward itself and invents its own workarounds.
+Если коротко, проблема современных DE не в том, что «всё плохо реализовано», а в том, что мир приложений поменялся быстрее, чем поменялись правила на уровне рабочего окружения. Десктоп унаследовал привычки эпохи «окна и программы», а затем в него врезалась философия «приложений‑сервисов», которые живут в фоне и постоянно требуют внимания. Когда система не различает эти типы поведения, начинается хаос: каждый продукт тянет одеяло на себя и изобретает свои обходные пути.
 
-This essay takes that thought to a practical conclusion: to restore order, we need to stop treating symptoms and give the OS/DE a clear framework—a classification of applications and technically enforced rules for access to background capabilities.
+В этом эссе эта мысль доведена до практического вывода: чтобы вернуть порядок, нужно перестать лечить симптомы и дать ОС/DE понятный каркас — классификацию приложений и технически закреплённые правила доступа к фоновым возможностям.
 
-Once the system has control and unified rules, it also gains room to evolve—smarter notifications, a more meaningful tray, system modes, and workflows that help rather than hinder. And that’s the moment when the desktop environment stops being a set of compromises and becomes what it should be: a tool built for people.<br><br><br><br>
+Когда у системы появляется контроль и единые правила, у неё появляется и пространство для развития — более умные уведомления, более осмысленный трей, режимы работы и сценарии, которые помогают, а не мешают. И именно в этот момент рабочее окружение перестаёт быть набором компромиссов и снова становится тем, чем должно быть: инструментом под человека.<br><br><br><br>
 
-## ⚠️ A note to developers
+## ⚠️ Обращение к разработчикам
 
-If you share these thoughts and want to try bringing them to life—let’s do it together.
+Если вы разделяете эти мысли и хотите попробовать воплотить их в жизнь — давайте делать это вместе.
 
-Help this text reach more people: share the essay, translate it into other languages, discuss the theses, argue with them, propose alternatives. Build prototypes, draft APIs, sketch interfaces, and experiment—even small contributions add up and move the industry.
+Помогите этому тексту добраться до большего числа людей  —  Делитесь эссе, переводите его на другие языки, обсуждайте тезисы, спорьте с ними, предлагайте альтернативы. Делайте свои прототипы, наброски API, макеты интерфейсов и эксперименты — даже маленькие наработки в сумме двигают индустрию.
 
-A desktop environment should adapt to people, not teach people to live by the rules of an accidentally‑evolved UX.<br><br><br><br>
+Рабочее окружение должно подстраиваться под человека, а не учить человека жить по правилам случайно сложившегося UX.<br><br><br><br>
